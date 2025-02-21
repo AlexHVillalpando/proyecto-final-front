@@ -1,0 +1,75 @@
+
+.security-box-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .security-box-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .security-box-panels {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+  }
+  
+  .security-box-list {
+    flex: 1;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+  }
+  
+  .security-box-account {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .security-box-account:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .security-box-details {
+    flex: 1;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .account-details {
+    margin-top: 20px;
+  }
+  
+  .account-details p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .create-credential-button {
+    margin-bottom: 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .create-credential-button:hover {
+    background-color: #45a049;
+  }
